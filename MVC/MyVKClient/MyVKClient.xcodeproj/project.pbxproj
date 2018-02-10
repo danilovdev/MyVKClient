@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C4DE757202F311100169191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DE756202F311100169191 /* AppDelegate.swift */; };
+		3C4DE759202F311100169191 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DE758202F311100169191 /* LoginViewController.swift */; };
+		3C4DE75C202F311100169191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4DE75A202F311100169191 /* Main.storyboard */; };
+		3C4DE75E202F311100169191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4DE75D202F311100169191 /* Assets.xcassets */; };
+		3C4DE761202F311100169191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4DE75F202F311100169191 /* LaunchScreen.storyboard */; };
+		3C4DE769202F436700169191 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DE768202F436700169191 /* NewsViewController.swift */; };
+		44AC91BB1DC9E301B9524E95 /* Pods_MyVKClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198CF29258E3220DE6DB7D32 /* Pods_MyVKClient.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		132127D3FD6201D4E02F86FD /* Pods-MyVKClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVKClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyVKClient/Pods-MyVKClient.release.xcconfig"; sourceTree = "<group>"; };
+		198CF29258E3220DE6DB7D32 /* Pods_MyVKClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyVKClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4DE753202F311100169191 /* MyVKClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVKClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4DE756202F311100169191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C4DE758202F311100169191 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3C4DE75B202F311100169191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C4DE75D202F311100169191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C4DE760202F311100169191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C4DE762202F311100169191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4DE768202F436700169191 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		93BA437DB49F49D43FC8D301 /* Pods-MyVKClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVKClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyVKClient/Pods-MyVKClient.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4DE750202F311100169191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AC91BB1DC9E301B9524E95 /* Pods_MyVKClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E015C03E4551B079F9B189F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				198CF29258E3220DE6DB7D32 /* Pods_MyVKClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C4DE74A202F311100169191 = {
+			isa = PBXGroup;
+			children = (
+				3C4DE755202F311100169191 /* MyVKClient */,
+				3C4DE754202F311100169191 /* Products */,
+				3EF190E0B0897ACB41B742F6 /* Pods */,
+				1E015C03E4551B079F9B189F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C4DE754202F311100169191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4DE753202F311100169191 /* MyVKClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C4DE755202F311100169191 /* MyVKClient */ = {
+			isa = PBXGroup;
+			children = (
+				3C4DE756202F311100169191 /* AppDelegate.swift */,
+				3C4DE758202F311100169191 /* LoginViewController.swift */,
+				3C4DE75A202F311100169191 /* Main.storyboard */,
+				3C4DE75D202F311100169191 /* Assets.xcassets */,
+				3C4DE75F202F311100169191 /* LaunchScreen.storyboard */,
+				3C4DE762202F311100169191 /* Info.plist */,
+				3C4DE768202F436700169191 /* NewsViewController.swift */,
+			);
+			path = MyVKClient;
+			sourceTree = "<group>";
+		};
+		3EF190E0B0897ACB41B742F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93BA437DB49F49D43FC8D301 /* Pods-MyVKClient.debug.xcconfig */,
+				132127D3FD6201D4E02F86FD /* Pods-MyVKClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4DE752202F311100169191 /* MyVKClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4DE765202F311100169191 /* Build configuration list for PBXNativeTarget "MyVKClient" */;
+			buildPhases = (
+				9EE84CD31FB6AA91B27F3CE3 /* [CP] Check Pods Manifest.lock */,
+				3C4DE74F202F311100169191 /* Sources */,
+				3C4DE750202F311100169191 /* Frameworks */,
+				3C4DE751202F311100169191 /* Resources */,
+				E8A0DEF4F084E97610187667 /* [CP] Embed Pods Frameworks */,
+				7AC5FB0F5D3683911CA44F09 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVKClient;
+			productName = MyVKClient;
+			productReference = 3C4DE753202F311100169191 /* MyVKClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C4DE74B202F311100169191 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = danilovdev;
+				TargetAttributes = {
+					3C4DE752202F311100169191 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C4DE74E202F311100169191 /* Build configuration list for PBXProject "MyVKClient" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C4DE74A202F311100169191;
+			productRefGroup = 3C4DE754202F311100169191 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C4DE752202F311100169191 /* MyVKClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C4DE751202F311100169191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4DE761202F311100169191 /* LaunchScreen.storyboard in Resources */,
+				3C4DE75E202F311100169191 /* Assets.xcassets in Resources */,
+				3C4DE75C202F311100169191 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AC5FB0F5D3683911CA44F09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyVKClient/Pods-MyVKClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE84CD31FB6AA91B27F3CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyVKClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A0DEF4F084E97610187667 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyVKClient/Pods-MyVKClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VK_ios_sdk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyVKClient/Pods-MyVKClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4DE74F202F311100169191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4DE769202F436700169191 /* NewsViewController.swift in Sources */,
+				3C4DE759202F311100169191 /* LoginViewController.swift in Sources */,
+				3C4DE757202F311100169191 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C4DE75A202F311100169191 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4DE75B202F311100169191 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C4DE75F202F311100169191 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4DE760202F311100169191 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C4DE763202F311100169191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C4DE764202F311100169191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C4DE766202F311100169191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BA437DB49F49D43FC8D301 /* Pods-MyVKClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9F5S24X43;
+				INFOPLIST_FILE = MyVKClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danilovdev.MyVKClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C4DE767202F311100169191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132127D3FD6201D4E02F86FD /* Pods-MyVKClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9F5S24X43;
+				INFOPLIST_FILE = MyVKClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danilovdev.MyVKClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4DE74E202F311100169191 /* Build configuration list for PBXProject "MyVKClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4DE763202F311100169191 /* Debug */,
+				3C4DE764202F311100169191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4DE765202F311100169191 /* Build configuration list for PBXNativeTarget "MyVKClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4DE766202F311100169191 /* Debug */,
+				3C4DE767202F311100169191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C4DE74B202F311100169191 /* Project object */;
+}
