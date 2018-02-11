@@ -6,6 +6,15 @@
 //  Copyright © 2018 danilovdev. All rights reserved.
 //
 
+/*
+ sources:
+ 1. https://vk.com/dev/ios_sdk
+ 2. https://github.com/VKCOM/vk-ios-sdk
+ 3. https://habrahabr.ru/company/microsoft/blog/323296/
+ 4. https://stackoverflow.com/questions/36118158/how-to-logout-from-vk-api-on-ios
+ 5.
+ */
+
 import UIKit
 import VK_ios_sdk
 

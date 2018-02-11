@@ -6,4 +6,11 @@
 //  Copyright © 2018 danilovdev. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class DetailsViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}

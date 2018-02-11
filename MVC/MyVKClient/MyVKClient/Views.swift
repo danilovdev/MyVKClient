@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Views {
+    
+    var count: Int
+}
