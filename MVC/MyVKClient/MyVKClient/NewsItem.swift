@@ -49,6 +49,7 @@ struct NewsItem {
         
         if let source_id = dict["source_id"] as? Int64 {
             self.source_id = source_id
+            print(source_id)
         } else {
             self.source_id = 0
         }

@@ -11,16 +11,26 @@ import VK_ios_sdk
 
 class LoginViewController: UIViewController {
     
+    struct AuthorizeApi {
+        
+        static let VK_APP_ID = "6367694"
+        
+        static let VK_APP_SCOPE = ["wall", "photos", "email", "friends"]
+        
+    }
+    
     private var logOutDelegate: LogOutHandlerDelegate!
     
-    let VK_APP_ID = "6367694"
     
-    let VK_APP_SCOPE = ["wall", "photos", "email", "friends"]
+
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let vkSdk = VKSdk.initialize(withAppId: VK_APP_ID)
+        
+        let vkSdk = VKSdk.initialize(withAppId: AuthorizeApi.VK_APP_ID)
         vkSdk?.register(self)
         vkSdk?.uiDelegate = self
         authUserWithSdk()
@@ -31,14 +41,14 @@ class LoginViewController: UIViewController {
     }
     
     func authUserWithSdk(forced: Bool = false) {
-        VKSdk.wakeUpSession(VK_APP_SCOPE as [Any]) { (authState, error) in
+        VKSdk.wakeUpSession(AuthorizeApi.VK_APP_SCOPE as [Any]) { (authState, error) in
             if authState == VKAuthorizationState.authorized {
                 print("user already authorized")
                 self.performSegue(withIdentifier: "ShowMainView", sender: self)
             } else if let error = error {
                 self.showError(title: "Ошибка авторизации", message: error.localizedDescription)
             } else if forced {
-                VKSdk.authorize(self.VK_APP_SCOPE as [Any])
+                VKSdk.authorize(AuthorizeApi.VK_APP_SCOPE as [Any])
             }
         }
     }
@@ -50,6 +60,16 @@ class LoginViewController: UIViewController {
                 destination.navigationItem.hidesBackButton = true
             }
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: false)
     }
 
 }

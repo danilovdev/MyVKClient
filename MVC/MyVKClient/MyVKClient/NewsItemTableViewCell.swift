@@ -9,6 +9,11 @@
 import UIKit
 
 class NewsItemTableViewCell: UITableViewCell {
+    
+    @IBOutlet var sourceNameTitleLabel: UILabel!
+    
+    
+    @IBOutlet var newsItemImageView: CustomImageView!
 
     override func awakeFromNib() {
         super.awakeFromNib()

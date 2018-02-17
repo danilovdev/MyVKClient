@@ -18,8 +18,35 @@
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="98.5"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Su2-tG-TkB" customClass="CustomImageView" customModule="MyVKClient" customModuleProvider="target">
+                        <rect key="frame" x="16" y="29" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="fKa-6g-P0B"/>
+                            <constraint firstAttribute="height" constant="40" id="fad-0d-OKi"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UsA-1u-TS7">
+                        <rect key="frame" x="64" y="11" width="240" height="77"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="UsA-1u-TS7" secondAttribute="trailing" constant="16" id="37t-5w-GJR"/>
+                    <constraint firstItem="Su2-tG-TkB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="8rE-H8-LHd"/>
+                    <constraint firstItem="Su2-tG-TkB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="E17-Rh-mvH"/>
+                    <constraint firstItem="UsA-1u-TS7" firstAttribute="leading" secondItem="Su2-tG-TkB" secondAttribute="trailing" constant="8" id="TzK-mT-ayG"/>
+                    <constraint firstItem="UsA-1u-TS7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="WKo-bb-Oqa"/>
+                    <constraint firstAttribute="bottom" secondItem="UsA-1u-TS7" secondAttribute="bottom" constant="10.5" id="pVO-Al-r1p"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="newsItemImageView" destination="Su2-tG-TkB" id="Y3b-ZE-dcT"/>
+                <outlet property="sourceNameTitleLabel" destination="UsA-1u-TS7" id="9nc-co-uma"/>
+            </connections>
             <point key="canvasLocation" x="34" y="81.5"/>
         </tableViewCell>
     </objects>

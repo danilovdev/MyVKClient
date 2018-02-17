@@ -25,6 +25,8 @@
 		3C4DE761202F311100169191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4DE75F202F311100169191 /* LaunchScreen.storyboard */; };
 		3C4DE769202F436700169191 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DE768202F436700169191 /* NewsViewController.swift */; };
 		3CABB3A520306E2900935C2C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABB3A420306E2900935C2C /* DetailsViewController.swift */; };
+		3CD8536A203892AF00BC6FD0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD85369203892AF00BC6FD0 /* ImageCache.swift */; };
+		3CD8536C203892F500BC6FD0 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8536B203892F500BC6FD0 /* CustomImageView.swift */; };
 		44AC91BB1DC9E301B9524E95 /* Pods_MyVKClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198CF29258E3220DE6DB7D32 /* Pods_MyVKClient.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		3C4DE762202F311100169191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C4DE768202F436700169191 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		3CABB3A420306E2900935C2C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3CD85369203892AF00BC6FD0 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		3CD8536B203892F500BC6FD0 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		93BA437DB49F49D43FC8D301 /* Pods-MyVKClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVKClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyVKClient/Pods-MyVKClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +118,8 @@
 				3C1636C120308AE5003D52BA /* Reposts.swift */,
 				3C1636C320308F29003D52BA /* NewsItemTableViewCell.swift */,
 				3C1636C420308F29003D52BA /* NewsItemTableViewCell.xib */,
+				3CD85369203892AF00BC6FD0 /* ImageCache.swift */,
+				3CD8536B203892F500BC6FD0 /* CustomImageView.swift */,
 			);
 			path = MyVKClient;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CD8536A203892AF00BC6FD0 /* ImageCache.swift in Sources */,
 				3C1636B420307CD0003D52BA /* NewsFeed.swift in Sources */,
 				3C4DE769202F436700169191 /* NewsViewController.swift in Sources */,
 				3C1636C220308AE5003D52BA /* Reposts.swift in Sources */,
@@ -265,6 +272,7 @@
 				3C1636BA203081B2003D52BA /* Likes.swift in Sources */,
 				3C1636B620307D87003D52BA /* Profile.swift in Sources */,
 				3C4DE759202F311100169191 /* LoginViewController.swift in Sources */,
+				3CD8536C203892F500BC6FD0 /* CustomImageView.swift in Sources */,
 				3C1636BE20308948003D52BA /* Photo.swift in Sources */,
 				3C4DE757202F311100169191 /* AppDelegate.swift in Sources */,
 				3C1636BC203081CD003D52BA /* Views.swift in Sources */,
