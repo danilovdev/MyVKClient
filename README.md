@@ -47,5 +47,19 @@ Show all latest news for user. When user scroll up (pull to refresh) new items s
 
 All information from selected previously news item should be displayed. Also there are should be like button. All Images from news item must be shown.
 
+<h2>Variations</h2>
+
+There are four variations for my VK client project. They are different in complexity and using technologies.
+
+Simple. MVC Architecture. VKClientMVC
+
+Medium. MVVM Architecture + Closure bindings. VKClientMVVM
+
+Hard. MVVM Architecture + RxSwift. VKClientMVVMRxSwift
+
+Progressive. VIPER Architecture. VKClientVIPER
+
+Bonus. Objective-C version with MVVM Architecture. VKClientObjcMVVM
+
 
  
